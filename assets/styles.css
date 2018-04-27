@@ -1,0 +1,53 @@
+.about {
+    background-image: url(Stars.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.name1 {
+    font-size: 5rem;
+    text-shadow: 6px 5px rgb(0, 0, 0);
+}
+
+.name2 {
+    text-shadow: 6px 2px rgb(0, 0, 0);
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.row2 {
+    background-image: url(stars3.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+
+.knowledge {
+        font-size: 5rem;
+    }
+
+.logo {
+        height: 150px;
+    }
+.row3 {
+    background-image: url(stars2);
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.row4 {
+    background-image: url(stars4.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

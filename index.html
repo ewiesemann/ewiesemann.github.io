@@ -1,64 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="assets/styles.css">
-    <title>Eric Wiesemann</title>
+    <title>Eric Wiesemann Landing Page</title>
 </head>
+
 <body>
-    <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg text-light">
-                <a class="navbar-brand" href="#">Menu</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="#">Languages</a>
-                        <a class="nav-item nav-link" href="#">Contact</a>
-                        <a class="nav-item nav-link" href="#">Portfolio</a>
-                    </div>
-                </div>
-            </nav>
-        <div class="row about">
-            <div class="col-12 text-light text-center d-flex align-items-center flex-column justify-content-center">
-                <h1 class="name1">Eric Wiesemann</h1>   
-                <h2 class="name2">Developer</h2>
-            </div>
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#aboutme">About Me</a>
+        <a href="#languages">Languages</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contactme">Contact Me</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div class="row header">
+        <div class="col-12 text-dark text-center d-flex align-items-center flex-column justify-content-center">
+            <h1 class="name1">Eric Wiesemann</h1>
+            <h2 class="name2">Software Developer</h2>
         </div>
-        <div class="row row3">
-            <div class="col=12 text-light d-flex justify-content-center align-self-center">
-                <h1 class="knowledge">About Me</h1>
-            </div>
+    </div>
+    <div class="row row3">
+        <div class="col-12 text-dark text-center d-flex align-items-center flex-column justify-content-center">
+            <h1 class="knowledge">About Me</h1>
+            <P>I was born in Seattle and moved to Boise when I was just a few months old. I attended Boise State University
+                where I studied Theater Arts with an emphasis in screenwriting and directing. Through several types of jobs
+                ranging from collections, computer operator, supply chain buyer, to technical help desk I found a passion
+                for computers. This lead me to a desire to learn web development and to the full stack immersive course at
+                Boise CodeWorks.</P>
         </div>
-        <div class="row row2 text-light justify-content-center align-items-center">
-            <h1 class="knowledge">My Languages</h1>
-            <div class="col-12 d-flex justify-content-between">
-                <img class="logo" src="assets/Lightroom.png" alt="Lightroom">
-                <img class="logo" src="assets/photoshop.png" alt="Photoshop">
-                <img class="logo" src="assets/bootstrap.png" alt="Bootstrap">
-                <img class="logo" src="assets/html5" alt="HTML5">
-                <img class="logo" src="assets/CSS.png" alt="CSS">
-            </div>
+    </div>
+    <div class="row row1 text-dark">
+        <div class="col-lg-12 text-center">
+            <h1 class="knowledge align-self-center">My Languages</h1>
+        </div>
+    </div>
+    <div class="row row2">
+        <div class="col-12 mx-auto d-flex justify-content-between">
+            <img class="logo" src="assets/Lightroom.png" alt="Lightroom">
+            <img class="logo" src="assets/photoshop.png" alt="Photoshop">
+            <img class="logo" src="assets/bootstrap-plain-wordmark.svg" alt="Bootstrap">
+            <img class="logo" src="assets/csharp-original.svg" alt="csharp">
+            <img class="logo" src="assets/html5" alt="HTML5">
+            <img class="logo" src="assets/javascript-original.svg" alt="javascript">
+        </div>
+    </div>
+
+    <div class="row row2">
+        <div class="col-12 mx-auto d-flex justify-content-between">
+                <img class="logo" src="assets/css3-original-wordmark.svg" alt="CSS">
+                <img class="logo" src="assets/vuejs-plain-wordmark.svg" alt="VueJs">
+            <img class="logo" src="assets/mongodb-original-wordmark.svg" alt="Mongodb">
+            <img class="logo" src="assets/nodejs-original.svg" alt="Nodejs">
+            <img class="logo" src="assets/visualstudio-plain-wordmark.svg" alt="visualstudio">
+        </div>
+    </div>
+
+    <div class="row row5">
+        <div class="col-lg-12 text-center">
+            <h1 class="knowledge align-self-center">My Portfolio</h1>
+        </div>
+    </div>
+    <div class="row row4 text-dark justify-content-center align-items-center">
+        <div class="col-6">
+            <h1 class="knowledge">Contact Me</h1>
         </div>
         <div class="row row4 text-light justify-content-center align-items-center">
             <div class="col-6">
-                <h1 class="knowledge">Contact Me</h1>
-            </div>
-            <div class="col-6">
-                    <div class="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                            <div class="input-group-append">
-                              <span class="input-group-text" id="basic-addon2">@example.com</span>
-                            </div>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <span class="input-group-text" id="basic-addon2">@example.com</span>
                     </div>
+                </div>
             </div>
         </div>
     </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+
+    </script>
 </body>
+
 </html>

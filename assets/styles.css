@@ -14,7 +14,7 @@ margin-right: auto;
 
 .row1{
     background-color: gray;
-    min-height: 15vh;
+    min-height: 10vh;
 }
 
 .row2{
@@ -28,11 +28,16 @@ margin-right: auto;
 
 .row4{
     background-color: gray;
-    min-height: 15vh;
+    min-height: 20vh;
 }
 
 .row5{
     min-height: 50vh;
+}
+
+.row6{
+    min-height: 5vh;
+    background-color: gray;
 }
 
 .logo {
